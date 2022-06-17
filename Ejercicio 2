@@ -1,0 +1,5 @@
+peso = float(input("Ingrese su peso en Kilogramos: "))
+estatura = float(input("Ingrese su estatura en metros: "))
+ 
+IMC = peso / (estatura*estatura)
+print (" Su indice de peso corporal es:",("{0:.2f}".format(IMC)))
